@@ -126,38 +126,26 @@
 	</div>
 
 	<script type="text/javascript">
-		$(function() {
-			$(".toolgif").toolgif({
-			width:200,
+		new Toolgif(".toolgif",{
+	    		width:200,
 			height:170,
-			speed:200,
-			borderRadius:5,
-			//textColor:"initial",
-			gifChange:true //If you make it false , one random gif limited by your tag will be found on Giphy.Gif won't change when you hover over your text again unless page reload is made.
-			});
-		});
-
-		$(function() {
-			$(".toolgif2").toolgif({
-			width:200,
+			borderRadius: 5,
+			placement: "top"
+	    	}).toolgif();
+	
+	    	new Toolgif(".toolgif2",{
+		    	width:200,
 			height:270,
-			speed:200,
-			borderRadius:5,
-			//textColor:"initial",
-			gifChange:true //If you make it false , one random gif limited by your tag will be found on Giphy.Gif won't change when you hover over your text again unless page reload is made.
-			});
-		});
-
-		$(function() {
-			$(".toolgif3").toolgif({
-			width:500,
+			borderRadius: 5,
+			placement: "top"
+		    	}).toolgif();
+	
+	    	new Toolgif(".toolgif3",{
+		    	width:500,
 			height:270,
-			speed:200,
-			borderRadius:5,
-			//textColor:"initial",
-			gifChange:true //If you make it false , one random gif limited by your tag will be found on Giphy.Gif won't change when you hover over your text again unless page reload is made.
-			});
-		});
+			borderRadius: 5,
+			placement: "top"
+	    	}).toolgif();		
 	</script>
 
 </body>
